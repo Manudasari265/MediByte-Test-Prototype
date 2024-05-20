@@ -15,10 +15,10 @@
 * {
   scroll-behavior: smooth;
 }
-
+/* bg-n-8 is the default bg-color & should be used & also can be configured*/
 @layer base {
   body {
-    @apply font-sans bg-n-8 text-n-1 text-base;
+    @apply font-sans bg-n-8 text-n-1 text-base; 
   }
 }
 

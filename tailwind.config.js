@@ -30,7 +30,7 @@ export default {
           5: "#3F3A52",
           6: "#252134",
           7: "#15131D",
-          8: "#0E0C15",
+          8: "#16131f",
           9: "#474060",
           10: "#43435C",
           11: "#1B1B2E",
@@ -129,13 +129,18 @@ export default {
           "@apply font-code text-lg leading-normal": {},
         },
         ".button": {
-          "@apply font-code text-xs font-bold uppercase tracking-wider": {},
+          "@apply font-code text-sm font-bold uppercase tracking-wider": {},
         },
       });
       addUtilities({
         ".tap-highlight-color": {
           "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
         },
+        ".gradient-text": {
+          background: "linear-gradient(90deg, #FFFFFF 0%, #111727 190%)",
+          "-webkit-background-clip": "text",
+          "-webkit-text-fill-color": "transparent",
+        }, 
       });
     }),
   ],
